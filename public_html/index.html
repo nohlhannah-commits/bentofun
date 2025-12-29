@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bento Box Generator - BentoFun! 🍱</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background-decoration"></div>
+  
+  <div class="container">
+    <header class="header">
+      <h1 class="title">
+        <span class="emoji">🍱</span>
+        BentoFun!
+        <span class="emoji">🍱</span>
+      </h1>
+      <p class="subtitle">Create Your Random Bento Box!</p>
+    </header>
+
+    <div class="content-wrapper">
+      <div class="bento-section">
+        <div class="bento-box" id="bentoBox">
+          <div class="bento-compartment compartment-1" id="comp1">
+            <div class="ingredient"></div>
+          </div>
+          <div class="bento-compartment compartment-2" id="comp2">
+            <div class="ingredient"></div>
+          </div>
+          <div class="bento-compartment compartment-3" id="comp3">
+            <div class="ingredient"></div>
+          </div>
+          <div class="bento-compartment compartment-4" id="comp4">
+            <div class="ingredient"></div>
+          </div>
+        </div>
+
+        <div class="controls">
+          <button class="btn btn-primary" id="generateBtn">
+            <span class="btn-text">✨ Generate Bento Box ✨</span>
+          </button>
+          <button class="btn btn-secondary" id="clearBtn">Clear</button>
+        </div>
+      </div>
+
+      <div class="ingredients-display">
+        <h2 class="ingredients-title">Today's Ingredients:</h2>
+        <ul class="ingredients-list" id="ingredientsList">
+          <li class="placeholder">Click "Generate" to create your bento box!</li>
+        </ul>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <p>Made with <span class="heart">♡</span> by BentoFun | Enjoy your meal!</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
